@@ -1,0 +1,13 @@
+header { margin-top: 6rem; }
+.header-300 { font-weight: 300; }
+.header-400 { font-weight: 400; }
+.header-700 { font-weight: 700; }
+
+article .container {
+  border-top: 1px solid #eee;
+  padding: 4rem 0; }
+
+footer .container {
+  border-top: 1px solid #eee;
+  padding: 4rem 0;
+  text-align: right; }
