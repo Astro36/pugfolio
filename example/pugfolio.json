@@ -1,0 +1,8 @@
+{
+  "theme": "skeleton",
+  "title": "Pugfolio",
+  "subtitle": "Create Your Portfolio using Pug Template Engine",
+  "author": "Astro36",
+  "description": "Example",
+  "files": ["about.pug", "feature.pug", "install.pug"]
+}
