@@ -1,0 +1,33 @@
+{
+  "name": "pugfolio",
+  "version": "0.1.0",
+  "description": "Create Your Portfolio using Pug Template Engine",
+  "main": "lib/index.js",
+  "bin": {
+    "pugfolio": "bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Astro36/Pugfolio.git"
+  },
+  "keywords": [
+    "portfolio",
+    "pug-template-engine"
+  ],
+  "author": {
+    "name": "Astro36",
+    "email": "astr36@naver.com",
+    "url": "http://astro36.me"
+  },
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/Astro36/Pugfolio/issues"
+  },
+  "homepage": "https://github.com/Astro36/Pugfolio#readme",
+  "dependencies": {
+    "pug": "^2.0.0-rc.2"
+  }
+}
