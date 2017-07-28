@@ -2,3 +2,35 @@ h2 About
 p Pug 템플릿 엔진을 사용하여 문서를 작성할 수 있게 하는 도구입니다.
 p 쉽고 간결한 Pug로 문서를 작성해 보세요!
 a.button(href='https://pugjs.org') https://pugjs.org
+
+h3 Features
+ul
+  li Supporting Markdown:
+    :markdown-it(linkify)
+      > It's very easy to make some words **bold** and other words *italic* with Markdown.
+      > You can even [link to Google!](http://google.com)
+      > 
+      > From GitHub Guides
+    pre: code.language-markdown
+      | > It's very easy to make some words **bold** and other words *italic* with Markdown.
+      | > You can even [link to Google!](http://google.com)
+      | > 
+      | > From GitHub Guides
+  li Using Latex Syntax by Katex:
+    p \[ x=\frac{-b\pm\sqrt{b^2-4ac}}{2a} \]
+  li Code Highlighting by Prizm:
+    pre: code.language-javascript
+      | function factorial(m) {
+      |   let num = 1;
+      |   for (let i = 2; i <= m; i++) {
+      |     num *= i;
+      |   }
+      |   return num;
+      | }
+
+h3 Install
+ul
+  li Install with npm:
+    pre: code.language-bash npm install pugfolio -g
+  li Clone the repo:
+    pre: code.language-git git clone https://github.com/Astro36/Pugfolio.git
