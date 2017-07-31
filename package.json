@@ -7,7 +7,7 @@
     "pugfolio": "bin/index.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint bin lib"
   },
   "repository": {
     "type": "git",
@@ -32,5 +32,8 @@
     "jstransformer-markdown-it": "^2.0.0",
     "markdown-it": "^8.3.1",
     "pug": "^2.0.0-rc.2"
+  },
+  "devDependencies": {
+    "eslint": "^4.3.0"
   }
 }

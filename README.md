@@ -5,6 +5,9 @@ Pug 템플릿 엔진을 사용하여 문서를 작성할 수 있게 하는 도�
 
 쉽고 간결한 Pug로 문서를 작성해 보세요!
 
+## Demo
+See [example](http://astro36.me/Pugfolio/example/)
+
 ## Features
 - Supporting Markdown
 - Using Latex Syntax by Katex
@@ -20,6 +23,26 @@ npm install pugfolio -g
 git clone https://github.com/Astro36/Pugfolio.git
 ```
 
+## Usage
+- To run Pugfolio, use the following format:
+``` bash
+pugfolio [config=pugfolio.json] [output=index.html]
+```
+
+- Here’s an example `pugfolio.json` file:
+```json
+{
+  "theme": "skeleton",
+  "title": "Pugfolio",
+  "subtitle": "Create Your Portfolio using Pug Template Engine",
+  "author": "Astro36",
+  "description": "My Portfolio",
+  "files": ["about.pug", "portfolio.pug"]
+}
+```
+**Only skeleton theme support now.**
+
+
 ## License
 Pugfolio is licensed under the [GPL 3.0](./LICENSE).
 
@@ -28,3 +51,7 @@ Pugfolio is licensed under the [GPL 3.0](./LICENSE).
 [Prism.js](http://prismjs.com) is licensed under the [MIT License](https://github.com/PrismJS/prism/blob/gh-pages/LICENSE) by Lea Verou.
 
 [Skeleton](http://getskeleton.com) is licensed under the [MIT License](https://github.com/dhg/Skeleton/blob/master/LICENSE.md) by Dave Gamache.
+
+[Font Awesome](http://fontawesome.io/) is licensed under the [SIL OFL 1.1 and MIT License](http://fontawesome.io/license/) by Font Awesome.
+
+[Spoqa Han Sans](https://spoqa.github.io/spoqa-han-sans/ko-KR/) is licensed under the [SIL OFL 1.1](https://github.com/spoqa/spoqa-han-sans/blob/master/LICENSE) by Spoqa.
