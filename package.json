@@ -31,7 +31,8 @@
     "fs-extra": "^4.0.0",
     "jstransformer-markdown-it": "^2.0.0",
     "markdown-it": "^8.3.1",
-    "pug": "^2.0.0-rc.2"
+    "pug": "^2.0.0-rc.2",
+    "unzip": "^0.1.11"
   },
   "devDependencies": {
     "eslint": "^4.3.0"
