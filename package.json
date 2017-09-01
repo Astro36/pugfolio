@@ -1,13 +1,14 @@
 {
   "name": "pugfolio",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Create Your Portfolio using Pug Template Engine",
   "main": "lib/index.js",
   "bin": {
     "pugfolio": "bin/index.js"
   },
   "scripts": {
-    "lint": "eslint bin lib"
+    "lint": "eslint bin lib",
+    "lint-fix": "eslint bin lib --fix"
   },
   "repository": {
     "type": "git",
@@ -32,6 +33,7 @@
     "jstransformer-markdown-it": "^2.0.0",
     "markdown-it": "^8.3.1",
     "pug": "^2.0.0-rc.2",
+    "puppeteer": "^0.10.1",
     "unzip": "^0.1.11"
   },
   "devDependencies": {
