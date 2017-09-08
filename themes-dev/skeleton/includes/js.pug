@@ -1,0 +1,11 @@
+script(type='text/javascript', src='assets/js/katex.min.js')
+script(type='text/javascript', src='assets/js/katex-auto.min.js')
+script(type='text/javascript', src='assets/js/prism.min.js')
+script.
+  renderMathInElement(document.body, {
+    delimiters: [
+      { left: "$$", right: "$$", display: true },
+      { left: "\\[", right: "\\]", display: true },
+      { left: "\\(", right: "\\)", display: false }
+    ]
+  });
