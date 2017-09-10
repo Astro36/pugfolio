@@ -1,4 +1,5 @@
 # Pugfolio
+
 [![npm](https://img.shields.io/npm/v/pugfolio.svg)](https://www.npmjs.com/package/pugfolio) [![npm](https://img.shields.io/npm/dt/pugfolio.svg)](https://www.npmjs.com/package/pugfolio)
 
 Create Your Portfolio using Pug Template Engine
@@ -8,34 +9,46 @@ Pug 템플릿 엔진을 사용하여 문서를 작성할 수 있게 하는 도�
 쉽고 간결한 Pug로 문서를 작성해 보세요!
 
 ## ChangeLog
+
 See [CHANGELOG](./CHANGELOG.md)
 
 ## Demo
+
+![Demo](./assets/img_demo.png)
+
 See [example](http://astro36.me/Pugfolio/example/)
 
 ## Features
+
 - Supporting Markdown
 - Using Latex Syntax by Katex
 - Code Highlighting by Prizm
 - Save as PDF
 
 ## Install
+
 - Install with npm:
+
 ``` bash
 npm install pugfolio -g
 ```
+
 - Clone the repo:
+
 ``` bash
 git clone https://github.com/Astro36/Pugfolio.git
 ```
 
 ## Usage
+
 - To run Pugfolio, use the following format:
+
 ``` bash
 pugfolio [config=pugfolio.json] [output=index.html]
 ```
 
 - Here’s an example `pugfolio.json` file:
+
 ```json
 {
   "theme": "skeleton",
@@ -43,14 +56,16 @@ pugfolio [config=pugfolio.json] [output=index.html]
   "subtitle": "Create Your Portfolio using Pug Template Engine",
   "author": "Astro36",
   "description": "My Portfolio",
+  "writeAsPdf": true,
   "files": ["about.pug", "portfolio.pug"]
 }
 ```
+
 You can add custom theme on `/themes` directory as `*.theme.zip` extension.
 
-
 ## License
-```
+
+```text
 Pugfolio
 Copyright (C) 2017  Astro
 
