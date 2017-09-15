@@ -28,5 +28,6 @@ article {
   text-align: right; }
 
 @media print {
+  header { margin-top: 0; }
   code { overflow-x: hidden; }
 }
