@@ -1,6 +1,6 @@
 # Pugfolio
 
-[![npm](https://img.shields.io/npm/v/pugfolio.svg)](https://www.npmjs.com/package/pugfolio) [![npm](https://img.shields.io/npm/dt/pugfolio.svg)](https://www.npmjs.com/package/pugfolio)
+[![CircleCI](https://img.shields.io/circleci/project/github/Astro36/Pugfolio.svg)](https://circleci.com/gh/Astro36/Pugfolio/) [![npm](https://img.shields.io/npm/v/pugfolio.svg)](https://www.npmjs.com/package/pugfolio) [![npm](https://img.shields.io/npm/dt/pugfolio.svg)](https://www.npmjs.com/package/pugfolio)
 
 Create Your Portfolio using Pug Template Engine
 
@@ -29,13 +29,13 @@ See [example](http://astro36.me/Pugfolio/example/)
 
 - Install with npm:
 
-``` bash
+```bash
 npm install pugfolio -g
 ```
 
 - Clone the repo:
 
-``` bash
+```bash
 git clone https://github.com/Astro36/Pugfolio.git
 ```
 
