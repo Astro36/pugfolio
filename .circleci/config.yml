@@ -36,4 +36,6 @@ jobs:
       # run tests!
       
       # render an example file
-      - run: node ./bin/ ./example/
+      - run:
+          command: node ./bin/ ./example/pugfolio.json ./example/index.html
+          background: true
