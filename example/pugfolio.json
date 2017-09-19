@@ -4,5 +4,6 @@
   "subtitle": "Create Your Portfolio using Pug Template Engine",
   "author": "Astro36",
   "description": "My Portfolio",
+  "writeAsPdf": true,
   "files": ["about.pug", "portfolio.pug"]
 }
