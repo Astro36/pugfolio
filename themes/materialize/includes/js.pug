@@ -1,0 +1,13 @@
+script(type='text/javascript' src='https://code.jquery.com/jquery-3.2.1.min.js')
+script(type='text/javascript' src='assets/js/katex.min.js')
+script(type='text/javascript' src='assets/js/katex-auto.min.js')
+script(type='text/javascript' src='assets/js/materialize.min.js')
+script(type='text/javascript' src='assets/js/prism.min.js')
+script.
+  renderMathInElement(document.body, {
+    delimiters: [
+      { left: '$$', right: '$$', display: true },
+      { left: '\\[', right: '\\]', display: true },
+      { left: '\\(', right: '\\)', display: false }
+    ]
+  });

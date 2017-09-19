@@ -1,0 +1,11 @@
+blockquote { border-left: 3px solid #e0e0e0; }
+
+code { overflow-x: inherit; }
+
+.header-300 { font-weight: 300; }
+.header-400 { font-weight: 400; }
+.header-700 { font-weight: 700; }
+
+@media print {
+  code { overflow-x: hidden; }
+}

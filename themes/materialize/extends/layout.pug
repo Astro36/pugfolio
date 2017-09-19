@@ -1,0 +1,19 @@
+doctype html
+
+html(lang="en")
+  head
+    include ../includes/meta.pug
+    include ../includes/css.pug
+    block css
+    title= title
+  body
+    main
+      header
+        include ../includes/header.pug
+      section
+        .container
+          block content
+      footer.page-footer.grey.darken-3
+        include ../includes/footer.pug
+    include ../includes/js.pug
+    block js
