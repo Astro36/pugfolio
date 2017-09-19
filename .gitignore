@@ -56,8 +56,3 @@ typings/
 
 # dotenv environment variables file
 .env
-
-# Themes
-themes/
-!themes/*.theme.zip
-
