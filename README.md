@@ -1,8 +1,8 @@
 # Pugfolio
 
-[![CircleCI](https://img.shields.io/circleci/project/github/Astro36/Pugfolio.svg)](https://circleci.com/gh/Astro36/Pugfolio/) [![npm](https://img.shields.io/npm/v/pugfolio.svg)](https://www.npmjs.com/package/pugfolio) [![npm](https://img.shields.io/npm/dt/pugfolio.svg)](https://www.npmjs.com/package/pugfolio)
+> Create Your Portfolio using Pug Template Engine
 
-Create Your Portfolio using Pug Template Engine
+[![CircleCI](https://img.shields.io/circleci/project/github/Astro36/Pugfolio.svg?style=flat-square)](https://circleci.com/gh/Astro36/Pugfolio/) [![npm](https://img.shields.io/npm/v/pugfolio.svg?style=flat-square)](https://www.npmjs.com/package/pugfolio) [![npm](https://img.shields.io/npm/dt/pugfolio.svg?style=flat-square)](https://www.npmjs.com/package/pugfolio)
 
 Pug 템플릿 엔진을 사용하여 문서를 작성할 수 있게 하는 도구입니다.
 
@@ -25,7 +25,7 @@ See [example](http://astro36.me/Pugfolio/example/)
 - Code Highlighting by Prizm
 - Save as PDF
 
-## Install
+## Installation
 
 - Install with npm:
 
@@ -41,11 +41,25 @@ git clone https://github.com/Astro36/Pugfolio.git
 
 ## Usage
 
+### Command
+
 - To run Pugfolio, use the following format:
 
 ``` bash
 pugfolio [config=pugfolio.json] [output=index.html]
 ```
+
+### Configuration
+
+Property    | Type    | Default
+----------- | ------- | --------
+theme       | String  | required
+title       | String  | required
+subtitle    | String  | required
+author      | String  | required
+description | String  | required
+writeAsPdf  | Boolean | false
+files       | Array   | required
 
 - Here’s an example `pugfolio.json` file:
 
@@ -61,7 +75,9 @@ pugfolio [config=pugfolio.json] [output=index.html]
 }
 ```
 
-You can add custom theme on `/themes` directory as `*.theme.zip` extension.
+You can find available themes on `/themes` directory.
+
+Also, you can add custom theme on `/themes` directory as `*.theme.zip` extension.
 
 ## License
 
