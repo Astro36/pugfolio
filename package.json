@@ -29,17 +29,17 @@
   },
   "homepage": "https://github.com/Astro36/Pugfolio#readme",
   "dependencies": {
-    "fs-extra": "^4.0.0",
+    "fs-extra": "^4.0.2",
     "jstransformer-markdown-it": "^2.0.0",
-    "markdown-it": "^8.3.1",
+    "markdown-it": "^8.4.0",
     "pug": "^2.0.0-rc.4",
-    "puppeteer": "^0.10.2",
+    "puppeteer": "^0.11.0",
     "unzip": "^0.1.11"
   },
   "devDependencies": {
-    "eslint": "^4.6.1",
-    "eslint-config-airbnb-base": "^11.2.0",
-    "eslint-plugin-import": "^2.2.0",
+    "eslint": "^4.7.2",
+    "eslint-config-airbnb-base": "^12.0.1",
+    "eslint-plugin-import": "^2.7.0",
     "pug-lint": "^2.5.0",
     "pug-lint-config-clock": "^2.0.0"
   }
