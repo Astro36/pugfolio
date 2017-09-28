@@ -2,7 +2,7 @@
 
 > Create Your Portfolio using Pug Template Engine
 
-[![CircleCI](https://img.shields.io/circleci/project/github/Astro36/Pugfolio.svg?style=flat-square)](https://circleci.com/gh/Astro36/Pugfolio/) [![npm](https://img.shields.io/npm/v/pugfolio.svg?style=flat-square)](https://www.npmjs.com/package/pugfolio) [![npm](https://img.shields.io/npm/dt/pugfolio.svg?style=flat-square)](https://www.npmjs.com/package/pugfolio)
+[![npm](https://img.shields.io/npm/v/pugfolio.svg?style=flat-square)](https://www.npmjs.com/package/pugfolio) [![npm](https://img.shields.io/npm/dt/pugfolio.svg?style=flat-square)](https://www.npmjs.com/package/pugfolio)
 
 Pug 템플릿 엔진을 사용하여 문서를 작성할 수 있게 하는 도구입니다.
 
