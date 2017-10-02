@@ -1,5 +1,7 @@
 # Pugfolio
 
+![Logo](./assets/img_pugfolio.png)
+
 > Create Your Portfolio using Pug Template Engine
 
 [![npm](https://img.shields.io/npm/v/pugfolio.svg?style=flat-square)](https://www.npmjs.com/package/pugfolio) [![npm](https://img.shields.io/npm/dt/pugfolio.svg?style=flat-square)](https://www.npmjs.com/package/pugfolio)
