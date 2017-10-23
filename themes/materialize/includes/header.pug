@@ -1,7 +1,0 @@
-nav.nav-extended.indigo
-  .nav-wrapper
-    a.brand-logo.center(href='#')= title
-  .nav-content
-    ul.tabs.tabs-transparent
-      each file in config.files
-        li.tab: a(href='#'+file.replace('.pug', ''))= file.replace('.pug', '')
