@@ -96,15 +96,6 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 
-/**require('./assets/css/font-awesome.min.css');
-require('./assets/css/katex.min.css');
-require('./assets/css/prism.css');
-require('./assets/css/skeleton.css');
-require('./assets/css/custom.css');
-require('./assets/css/spoqa-han-sans-kr.css');
-const katex = require('./assets/js/katex.min.js');
-const renderMathInElement = require('./assets/js/katex-auto.min.js');
-require('./assets/js/prism.min.js'); */
 
 __WEBPACK_IMPORTED_MODULE_7__assets_js_katex_auto_min_js___default()(document.body, {
   delimiters: [
