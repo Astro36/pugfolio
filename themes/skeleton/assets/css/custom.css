@@ -27,6 +27,9 @@ article {
   padding: 4rem 0;
   text-align: right; }
 
+td img {
+  max-width: 100%; }
+
 @media print {
   header { margin-top: 0; }
   code { overflow-x: hidden; }
