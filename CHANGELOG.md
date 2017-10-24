@@ -2,6 +2,8 @@
 
 ## v2.0.0
 
+Released Oct 24, 2017
+
 ### Added
 
 - Add a property of creating an output as pdf: `config.writeAsPdf`
