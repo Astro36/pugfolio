@@ -1,5 +1,23 @@
-extends extends/layout.pug
-
-block content
-  each content in contents
-    article !{content}
+doctype html
+html(lang='ko')
+  head
+    meta(http-equiv='Content-Type', content='text/html; charset=UTF-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    meta(name='author', content=config.author)
+    meta(name='description', content=config.description)
+    meta(name='google', content='notranslate')
+    title= config.title
+  body
+    main
+      header
+        .container
+          h1.header-700= config.title
+          h4.header-400= config.subtitle
+      section
+        .container
+          each content in contents
+            article !{content}
+      footer
+        .container
+          .footer
+            p= `${date} ${config.author}`

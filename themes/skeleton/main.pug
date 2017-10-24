@@ -16,6 +16,8 @@ html(lang='ko')
           h4.header-400= config.subtitle
       section
         .container
+          each content in contents
+            article !{content}
       footer
         .container
           .footer

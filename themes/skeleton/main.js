@@ -4,8 +4,8 @@ import './assets/css/prism.css';
 import './assets/css/skeleton.css';
 import './assets/css/custom.css';
 import './assets/css/spoqa-han-sans-kr.css';
-import './assets/js/katex.min.js';
-import './assets/js/katex-auto.min.js';
+import katex from './assets/js/katex.min.js';
+import renderMathInElement from './assets/js/katex-auto.min.js';
 import './assets/js/prism.min.js';
 
 renderMathInElement(document.body, {

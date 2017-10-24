@@ -8,7 +8,8 @@
   },
   "scripts": {
     "lint": "eslint bin lib",
-    "lint-fix": "eslint bin lib --fix"
+    "lint-fix": "eslint bin lib --fix",
+    "lint-pug": "pug-lint themes"
   },
   "repository": {
     "type": "git",
@@ -31,6 +32,7 @@
   "dependencies": {
     "base64-inline-loader": "^1.1.0",
     "css-loader": "^0.28.7",
+    "extract-text-webpack-plugin": "^3.0.1",
     "file-loader": "^1.1.5",
     "html-webpack-plugin": "^2.30.1",
     "jstransformer-markdown-it": "^2.0.0",
