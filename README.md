@@ -79,7 +79,7 @@ files       | Array   | required
 
 You can find available themes on `/themes` directory.
 
-Also, you can add custom theme on `/themes` directory as `*.theme.zip` extension.
+Also, you can add custom theme on `/themes` directory.
 
 ## License
 
