@@ -77,9 +77,7 @@ files       | Array   | required
 }
 ```
 
-You can find available themes on `/themes` directory.
-
-Also, you can add custom theme on `/themes` directory.
+You can find available themes and add custom theme on `/themes` directory.
 
 ## License
 
