@@ -7,6 +7,7 @@
     "pugfolio": "bin/index.js"
   },
   "scripts": {
+    "build": "babel src -d lib",
     "lint": "eslint bin lib",
     "lint-fix": "eslint bin lib --fix",
     "lint-pug": "pug-lint themes"
@@ -46,6 +47,8 @@
     "webpack": "^3.8.1"
   },
   "devDependencies": {
+    "babel-cli": "*",
+    "babel-preset-env": "*",
     "eslint": "^4.9.0",
     "eslint-config-airbnb-base": "^12.1.0",
     "eslint-plugin-import": "^2.8.0",
