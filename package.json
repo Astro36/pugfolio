@@ -7,7 +7,6 @@
     "pugfolio": "bin/index.js"
   },
   "scripts": {
-    "build": "babel lib -d lib",
     "lint": "eslint bin lib",
     "lint-fix": "eslint bin lib --fix",
     "lint-pug": "pug-lint themes"
